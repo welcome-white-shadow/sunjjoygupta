@@ -234,7 +234,9 @@ a{color:inherit;text-decoration:none}
   letter-spacing:.12em;text-transform:uppercase;font-size:.62em;color:rgba(255,255,255,.82)}
 .bookrow__title{font-family:var(--serif);font-weight:700;color:var(--navy);
   font-size:clamp(1.7rem,3vw,2.3rem);line-height:1.12}
-.bookrow__tag{font-family:var(--serif);font-style:italic;color:var(--gold);font-size:1.15rem;margin:.4rem 0 1rem}
+.bookrow__text>.bookrow__tag{font-family:var(--serif);font-style:italic;font-weight:700;
+  color:var(--gold);font-size:clamp(1.4rem,2vw,1.75rem);letter-spacing:.01em;
+  line-height:1.2;margin:.55rem 0 1.05rem}
 .bookrow__text>p{color:var(--muted);margin-bottom:14px;font-size:1.02rem}
 .bookrow__list{list-style:none;display:grid;gap:9px;margin:8px 0 22px}
 .bookrow__list li{position:relative;padding-left:26px;color:var(--navy);font-size:1rem;font-weight:500}
